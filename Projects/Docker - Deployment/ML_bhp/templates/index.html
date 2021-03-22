@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>House price prediction</title>
+    </head>
+
+    <body>
+
+        
+
+          <form method="POST">
+          
+            <label for="area">Area (sqft)</label> <br>
+            <input type="text" id="area" name="area" placeholder="Area in Sq.ft"><br>
+            <br>
+            <label for="tf">Total Floor</label><br>
+            <input type="text" id="total_floor" name="total_floor" placeholder="Total Floors"><br>
+            <br>
+            
+            <label for="yo">Years old</label><br>
+            <input type="text" id="year_old" name="year_old" placeholder="How many years Old"><br>
+            <br><label for="lname">BHK</label><br>
+            <input type="text" id="bhk" name="bhk" placeholder="BHK"><br>
+            <br><label for="loc">Location</label><br>
+            <input type="text" id="loc" name="loc" placeholder="Location ID"><br>
+            <br>
+            <br><input type="submit" value="Predict price">
+
+            <br>
+            <br>
+          <h3>
+            The predicted price is Rs. {{ prediction }}
+          </h3>
+
+            
+          </form>
+          
+          
+
+
+          
+    
+        </body>
+
+
+
+
+</html>
